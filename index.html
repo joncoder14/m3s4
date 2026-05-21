@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products</title>
+    <script defer src="app.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body>
+    <div class=" flex justify-center" >
+        <!-- create the form  -->
+        <form id="form-product" class="bg-slate-900 text-white flex flex-col gap-3 items-center justify-center rounded size-80 border m-5 rounded-lg " >
+            <label class="capitalize">name:</label>
+            <input id="name-product" class="border p-1 rounded" type="text" placeholder="enter name of the product" required>
+            <label class="capitalize">price:</label>
+            <input id="price-product" class="border p-1 rounded" type="number" placeholder="enter price of the product" required>
+            <button id="btn-add" class="border w-30 text-black rounded bg-sky-400 p-1 m-5">add</button>
+        </form>
+
+    </div>
+    <div id="list-container">
+
+    </div>
+
+</body>
+</html>
