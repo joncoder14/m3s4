@@ -1,4 +1,10 @@
 {
-  "products": [],
+  "products": [
+    {
+      "name": "asd",
+      "price": "34",
+      "id": "cB01RtDgb04"
+    }
+  ],
   "$schema": "./node_modules/json-server/schema.json"
 }
